@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Manual dark mode toggle for Tailwind v4 */
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-zinc-50 text-zinc-900 transition-colors duration-300 dark:bg-zinc-950 dark:text-zinc-50;
+  }
+}
