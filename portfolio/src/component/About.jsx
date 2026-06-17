@@ -48,7 +48,7 @@ export default function About() {
                         <img
                             src={smitImage}
                             alt="Smit Zinzuvadiya"
-                            className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                            className="w-full h-full object-cover transition-all duration-700"
                         />
                         {/* Design accents */}
                         <div className="absolute inset-0 border-4 border-white/10 dark:border-zinc-900/50 rounded-3xl z-10"></div>
