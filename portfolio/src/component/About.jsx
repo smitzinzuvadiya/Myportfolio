@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import smitImage from '../assets/smit.png';
 
 export default function About() {
     return (
@@ -20,7 +21,7 @@ export default function About() {
 
                     <div className="space-y-6 text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed font-medium">
                         <p>
-                            I am a passionate Full-Stack Developer who has recently completed my{" "}
+                            I am Smit Zinzuvadiya, a passionate Full-Stack Developer who has recently completed my{" "}
                             <span className="text-zinc-900 dark:text-zinc-100 font-bold">
                                 Bachelor of Computer Applications (BCA)
                             </span>
@@ -45,8 +46,8 @@ export default function About() {
                     <div className="aspect-square max-w-md mx-auto relative rounded-3xl overflow-hidden shadow-2xl shadow-emerald-500/10">
                         {/* Replace this src with your actual professional headshot */}
                         <img
-                            src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?q=80&w=1000&auto=format&fit=crop"
-                            alt="Developer Workspace"
+                            src={smitImage}
+                            alt="Smit Zinzuvadiya"
                             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                         />
                         {/* Design accents */}
