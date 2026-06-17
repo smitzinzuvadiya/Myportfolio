@@ -21,7 +21,7 @@ export default function About() {
 
                     <div className="space-y-6 text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed font-medium">
                         <p>
-                            I am Smit Zinzuvadiya, a passionate Full-Stack Developer who has recently completed my{" "}
+                            I am <span className="text-emerald-500 font-bold">Smit Zinzuvadiya</span>, a passionate Full-Stack Developer who has recently completed my{" "}
                             <span className="text-zinc-900 dark:text-zinc-100 font-bold">
                                 Bachelor of Computer Applications (BCA)
                             </span>
